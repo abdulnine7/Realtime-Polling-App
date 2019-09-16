@@ -1,0 +1,24 @@
+{
+  "name": "pusherpoll",
+  "version": "1.0.0",
+  "description": "Realtime Polling App using pusher",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulnine7/Realtime-Polling-App.git"
+  },
+  "keywords": [
+    "pusher",
+    "mongodb",
+    "nodejs"
+  ],
+  "author": "Abdul Noushad Sheikh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdulnine7/Realtime-Polling-App/issues"
+  },
+  "homepage": "https://github.com/abdulnine7/Realtime-Polling-App#readme"
+}
