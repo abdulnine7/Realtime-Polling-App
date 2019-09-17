@@ -4,7 +4,8 @@
   "description": "Realtime Polling App using pusher",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/abdulnine7/Realtime-Polling-App/issues"
   },
-  "homepage": "https://github.com/abdulnine7/Realtime-Polling-App#readme"
+  "homepage": "https://github.com/abdulnine7/Realtime-Polling-App#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "pusher": "^2.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
 }
